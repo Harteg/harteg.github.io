@@ -1,0 +1,42 @@
+.content-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;  
+    padding: 16px;
+}
+
+form.email p {
+font-size: 15px;
+padding: 0 0 10px 0;
+margin: 0;
+}
+
+form.email input, form.email textarea {
+font-family: Arial;
+font-size: 15px;
+margin: 0 0 10px 0;
+}
+
+form.email input {
+background: #f5f5f5;
+padding: 5px;
+border: 1px solid #bbb;
+border-radius: 5px;
+}
+
+form.email textarea {
+background: #f5f5f5;
+padding: 5px;
+border: 1px solid #bbb;
+border-radius: 5px;
+width: 400px;
+height: 250px;
+}
+
+form.email input.send {
+color: #fff;
+background: #222;
+border: #000;
+padding: 10px 25px 10px 25px;
+cursor: pointer;
+}
