@@ -1,0 +1,386 @@
+
+@font-face { font-family: NexaBold; src: url('./font/nexa_bold.ttf'); }
+@font-face { font-family: NexaLight; src: url('./font/nexa_light.ttf'); }
+
+  html{
+    background-color: #333;
+  }
+
+  body{
+    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  }
+
+  .shattered-background{
+    background: url('images/texture_shattered.png');
+  }
+
+  .section_80vh{
+      height: 80vh;
+      width: 100%;
+      overflow: hidden;
+      background-color: #000;
+      color: #fff !important;
+  }
+
+  .android-header {
+    overflow: visible;
+  }
+
+  .header-logo {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 22px;
+    font-family: NexaBold;
+    font-size: 30px !important;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .light{
+    background-color: #313131 !important;
+  }
+
+  .section{
+    position: relative;
+    min-height: 50px;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #232323;
+    color: #fff !important;
+  }
+
+  .nopadding-desktop{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .lockscreen-video-margin{
+    margin-bottom: -100px;
+  }
+
+  .mdl-cell--center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .section_text_left{
+    padding: 24px;
+    max-width: 550px;
+    margin-left: auto;
+    text-align: left;
+    color: white;
+  }
+
+  .section_text_right{
+    padding: 24px;
+    max-width: 550px;
+    margin-right: auto;
+    text-align: left;
+    color: white;
+  }
+
+  .title-line-green{
+    margin-top: 35px;
+    height: 1px;
+    width: 40px;
+    background-color: #0f9d58;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title-line-white{
+    margin-top: 35px;
+    height: 1px;
+    width: 40px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .screenshot{
+    height: 500px;
+    width: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+  .top-play-badge{
+    height: 100px;
+    margin-top: 20vh;
+    margin-left: -16px;
+    margin-bottom: -50px;
+  }
+
+  .email-end-paragraph{
+    max-width: 700px;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .premium-features-note{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 550px;
+    font-weight: 500;
+  }
+
+  .feature {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-right: 32px;
+      margin-bottom: 64px;
+  }
+
+  .feature-last{
+    margin-bottom: 16px !important;
+  }
+
+  .feature_icon {
+      height: auto;
+      max-height: 120px;
+      margin-right: 50px;
+  }
+
+  .feature_text {
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+  }
+
+  .feature_text h4{
+    color: #0f9d58;
+    margin-top: -6px;
+    margin-bottom: 0px;
+  }
+
+  .feature_text span{
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .header-button:hover{
+    opacity: 1;
+  }
+
+  .header-button{
+    cursor: pointer;
+    opacity: 0.5;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+  }
+
+  .header-button-right{
+    margin-left: auto;
+  }
+
+  .footer {
+    background-color: #1b1b1b;
+    position: relative;
+  }
+
+  .footer-copyright{
+    color: white;
+    opacity: 0.5;
+    margin-left: 16px;
+  }
+
+  .mdl-mini-footer__link-list a{
+    color: white;
+    opacity: 0.5;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+  }
+
+  .mdl-mini-footer__link-list a:hover{
+    opacity: 1;
+  }
+
+  .help-section{
+    padding: 16px;
+  }
+
+  .help-section p{
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 32px;
+  }
+
+  .mdl-button--grey{
+    background-color: #455a64;
+    color: white;
+  }
+
+  .padding-16{
+    padding: 16px;
+  }
+
+  .padding-32{
+    padding: 32px;
+  }
+
+  .padding-32{
+    padding: 32px;
+  }
+
+  .margin-right-16{
+    margin-right: 16px;
+  }
+
+  .margin-bottom-16{
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 840px){
+
+    .section{
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+
+    .feature{
+      padding-right: 0px;
+    }
+
+    .feature-last{
+      margin-bottom: 64px !important;
+    }
+
+    .section_text_left{
+      padding: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: white;
+    }
+
+    .section_text_right{
+      margin-left: auto;
+      margin-right: auto;
+      padding: 24px;
+      text-align: center;
+      color: white;
+    }
+
+    .top-play-badge{
+      height: 100px;
+      margin-top: 32px;
+      margin-left: 0px;
+      margin-bottom: 32px;
+    }
+
+    .lockscreen-video-margin{
+      margin-top: -32px;
+      margin-bottom: -150px;
+    }
+
+    .email-end-paragraph{
+      padding-bottom: 64px !important;
+    }
+  }
+
+  /* ========= ========= ========= Gradients ========= ========= ========= */
+
+.gradient-green500-green700-diagonal{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f9d58+0,0b8043+100 */
+  background: #0f9d58; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #0f9d58 0%, #0b8043 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #0f9d58 0%,#0b8043 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #0f9d58 0%,#0b8043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f9d58', endColorstr='#0b8043',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient-email-bg{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#313131+0,455a64+100,607d8b+100 */
+  background: #313131; /* Old browsers */
+  background: -moz-linear-gradient(top,  #313131 0%, #455a64 100%, #607d8b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #313131 0%,#455a64 100%,#607d8b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #313131 0%,#455a64 100%,#607d8b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#607d8b',GradientType=0 ); /* IE6-9 */
+}
+
+  /* ========= ========= ========= browser-mockup ========= ========= ========= */
+
+/* Browser mockup code
+ * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+ * Live example: https://updown.io
+ */
+
+.browser-mockup {
+  border-top: 2em solid #333;
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup.with-tab:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -2em;
+  left: 5.5em;
+  width: 20%;
+  height: 0em;
+  border-bottom: 2em solid white;
+  border-left: 0.8em solid transparent;
+  border-right: 0.8em solid transparent;
+}
+
+.browser-mockup.with-url:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.browser-mockup > * {
+  display: block;
+}
