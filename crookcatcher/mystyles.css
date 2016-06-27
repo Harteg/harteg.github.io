@@ -31,7 +31,6 @@
     position: absolute;
     left: calc(50% - 100px);
     top: 22px;
-    font-family: NexaBold;
     font-size: 30px !important;
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
