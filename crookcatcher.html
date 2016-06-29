@@ -77,8 +77,8 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
-                <a class="header-button" href="index.html" title="Home"><img alt="ic_crop_square_white_24px.svg" src=
-                "crookcatcher/images/ic_crop_square_white_24px.svg"></a>
+                <a class="header-button" href="index.html" title="Home"><img alt="ic_arrow_back_white_24px.svg" src=
+                "crookcatcher/images/ic_arrow_back_white_24px.svg"></a>
                 <span class="header-logo">CrookCatcher</span>
                 <a class="header-button header-button-right" href="crookcatcher/help.html" title="Help"><img alt=
                 "ic_help_outline_white_24px.svg" src="crookcatcher/images/ic_help_outline_white_24px.svg"></a>
@@ -87,8 +87,9 @@
 
         <div class="android-content mdl-layout__content">
 
-            <div class="mdl-grid section shattered-background">
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--bottom section_text_left">
+          <div class="section shattered-background">
+            <div class="mdl-grid section-container">
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--middle section_text_left">
                     <p class="mdl-typography--headline" style="font-size: 40px; line-height: 1.15; font-weight: 300;">
                     Catch anyone snooping around your phone</p>
                     <a href=
@@ -98,9 +99,10 @@
                 </div>
 
                 <div class="mdl-cell mdl-cell--6-col" style="text-align: center; margin: 0 auto;"><img src=
-                "crookcatcher/images/screen_home_frame.png" style="height: 80vh; margin-bottom: -100px;">
+                "crookcatcher/images/screen_home_frame.png" style="width: 100%; max-width: 360px; margin-bottom: -100px;">
                 </div>
-            </div>
+              </div>
+          </div>
 
             <!-- How does it work -->
             <div class="mdl-grid gradient-green500-green700-diagonal" style="width: 100%; height: 200px;">
@@ -114,20 +116,21 @@
             </div>
 
             <!-- Section: LockScreen -->
-            <div class="mdl-grid section light nopadding-desktop">
+            <div class="section light nopadding-desktop">
+              <div class="section-container mdl-grid">
 
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--middle mdl-cell--order-2-desktop section_text_right">
-                  <p class="mdl-typography--headline" style="font-size: 30px; line-height: 1.15; font-weight: 300;">
-                  When someone enters your code wrong, <span style=
-                  "color: #0F9D58; font-family: NexaBold">CrookCatcher</span> takes a selfie</p>
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--middle mdl-cell--order-2-desktop section_text_right">
+                    <p class="mdl-typography--headline" style="font-size: 30px; line-height: 1.15; font-weight: 300;">
+                    When someone enters your code wrong, <span style=
+                    "color: #0F9D58; font-family: NexaBold">CrookCatcher</span> takes a selfie</p>
+                </div>
+
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--order-1-desktop" style="text-align: center; margin: 0 auto;">
+                    <video autoplay id="video1" loop poster="crookcatcher/images/video_unlock_fail_poster.jpg"
+                    style="width: 100%; max-width: 600px;" class="lockscreen-video-margin">
+                    <source src="crookcatcher/images/video_unlock_fail.mp4" type="video/mp4">
+                </div>
               </div>
-
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--order-1-desktop" style="text-align: center; margin: 0 auto;">
-                  <video autoplay id="video1" loop poster="crookcatcher/images/video_unlock_fail_poster.jpg"
-                  style="height: 80vh;" class="lockscreen-video-margin">
-                  <source src="crookcatcher/images/video_unlock_fail.mp4" type="video/mp4">
-              </div>
-
             </div>
 
             <!-- Fix for video autoplay - bug in Material-Design-Lite -->
@@ -139,25 +142,29 @@
             </script>
 
             <!-- Section: Location -->
-            <div class="mdl-grid section">
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--middle section_text_left">
-                    <p class="mdl-typography--headline" style="font-size: 30px; line-height: 1.15; font-weight: 300;">
-                    Meanwhile, <span style="color: #0F9D58; font-family: NexaBold">CrookCatcher</span> finds your
-                    phone's GPS coordinates</p>
-                </div>
+            <div class="section">
+                <div class="section-container mdl-grid">
+                  <div class="mdl-cell mdl-cell--6-col mdl-cell--middle section_text_left">
+                      <p class="mdl-typography--headline" style="font-size: 30px; line-height: 1.15; font-weight: 300;">
+                      Meanwhile, <span style="color: #0F9D58; font-family: NexaBold">CrookCatcher</span> finds your
+                      phone's GPS coordinates</p>
+                  </div>
 
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--center padding-32"><img src=
-                "crookcatcher/images/ic_earth.png" style="height: 40vh;">
-                </div>
+                  <div class="mdl-cell mdl-cell--6-col mdl-cell--center padding-32"><img src=
+                  "crookcatcher/images/ic_earth.png" style="height: 40vh; max-height: 300px;">
+                  </div>
+              </div>
             </div>
 
             <!-- Section: Email -->
-            <div class="mdl-grid section light" style="padding-bottom: 0px;">
-                <div class="mdl-cell center">
-                    <p class="mdl-typography--headline" style=
-                    "font-size: 30px; line-height: 1.15; font-weight: 300; text-align: center">Finally, <span style=
-                    "color: #0F9D58; font-family: NexaBold">CrookCatcher</span> sends this to your email</p>
-                </div>
+            <div class="section light" style="padding-bottom: 0px;">
+                <div class="mdl-grid section-container">
+                  <div class="mdl-cell center">
+                      <p class="mdl-typography--headline" style=
+                      "font-size: 30px; line-height: 1.15; font-weight: 300; text-align: center">Finally, <span style=
+                      "color: #0F9D58; font-family: NexaBold">CrookCatcher</span> sends this to your email</p>
+                  </div>
+              </div>
             </div>
 
             <!-- Email mock up html -->
@@ -193,7 +200,7 @@
                                         <div style="padding-top: 20px;">
                                             <a href="http://www.google.com/maps/place/64.174755,-51.736889"><img alt=
                                             "Open in Maps" src=
-                                            "http://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDC2ddhx9Yz8S8L7eqzjoKXEwevVTYhHVk&zoom=14&size=486x250&maptype=roadmap&markers=color:0x0f9d58%7C64.174755,-51.736889&sensor=false&visual_refresh=true"
+                                            "crookcatcher/images/staticmap.png"
                                             style="width: 100%; height: auto; margin: 0; border: 0;"></a>
                                         </div>
 
