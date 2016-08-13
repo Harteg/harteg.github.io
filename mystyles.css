@@ -1,5 +1,5 @@
-@font-face { font-family: NexaBold; src: url('./font/nexa_bold.ttf'); }
-@font-face { font-family: NexaLight; src: url('./font/nexa_light.ttf'); }
+@font-face { font-family: 'NexaBold'; src: url('.crookcatcher/fonts/nexa_bold.ttf'); }
+@font-face { font-family: 'NexaLight'; src: url('.crookcatcher/fonts/nexa_light.ttf'); }
 
 html{
   background-color: #232526;
