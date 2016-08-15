@@ -1,0 +1,126 @@
+@font-face { font-family: 'NexaBold'; src: url('.crookcatcher/fonts/nexa_bold.ttf'); }
+@font-face { font-family: 'NexaLight'; src: url('.crookcatcher/fonts/nexa_light.ttf'); }
+
+html{
+  height: 100%;
+  background-color: #2196F3;
+}
+
+body{
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  height: 100%;
+  background-color: #2196F3;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layoutCenterKid{
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.layoutCenter{
+  display: inline-table;
+  height: 100%;
+  width: 100%;
+}
+
+.header-button:hover{
+  opacity: 1;
+}
+
+.header-button{
+  cursor: pointer;
+  opacity: 0.5;
+ transition: opacity .25s ease-in-out;
+ -moz-transition: opacity .25s ease-in-out;
+ -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+.title{
+  color: #2196F3;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'NexaBold';
+  text-transform: uppercase;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15)
+}
+
+.title span{
+  font-weight: 300;
+  font-size: 27px;
+  text-align: center;
+  margin-top: -5px;
+  display: block;
+  font-family: 'NexaLight';
+}
+
+.icon img{
+  height: 150px;
+  width: 150px;
+}
+
+.text{
+  color: #000;
+  opacity: 0.88;
+  font-size: 1.3em;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+.features{
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.card{
+  margin-top: 78px;
+  margin-bottom: 32px;
+  z-index: 500;
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 32px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.gradient-bg{
+  background: #2196F3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2196F3 , #00a0e3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2196F3 , #00a0e3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* --------- Not used --------- */
+.gradient{
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient1{
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient2{
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient3{
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
