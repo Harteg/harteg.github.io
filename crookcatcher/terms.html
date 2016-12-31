@@ -56,6 +56,16 @@
 </head>
 
 <body>
+  
+    <!-- Footer break -->
+    <svg class="clip-svg" width="0" height="0">
+      <defs>
+        <clipPath id="svg_footer" clipPathUnits="objectBoundingBox" >
+          <polygon points="0 0, 0 1, 1 1" />
+        </clipPath>
+      </defs>
+    </svg>
+
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
@@ -191,6 +201,8 @@
                   See the privacy policy
                 </a>
             </div>
+
+            <div class="footer_break_shape_1" style="clip-path: url('#svg_footer');"></div>
 
             <!-- Footer -->
             <footer class="mdl-mini-footer footer">
