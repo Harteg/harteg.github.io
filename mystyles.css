@@ -65,8 +65,6 @@ body{
 
 .apps{
   position: absolute;
-  bottom: 0;
-  margin-bottom: 5%;
   right: 50%;
   margin-right: -50px;
 }
@@ -76,15 +74,15 @@ body{
 }
 
 .app{
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   position: relative;
   display: inline-block;
 }
 
 .app img{
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   position: absolute;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
