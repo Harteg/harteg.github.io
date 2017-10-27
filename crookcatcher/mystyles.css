@@ -353,6 +353,7 @@ position: absolute;
     color: #fff;
     font-family: 'NexaBold', 'Lato';
     line-height: 1;
+    letter-spacing: 2px;
     margin-bottom: 8px;
 }
 .top-section-subtitle {
