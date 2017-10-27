@@ -1,36 +1,81 @@
 <!doctype html>
 <html>
     <head>
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="res/favicon/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="res/favicon/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="res/favicon/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="res/favicon/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="res/favicon/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="res/favicon/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="res/favicon/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="res/favicon/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="res/favicon/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="res/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="res/favicon/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="res/favicon/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="res/favicon/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="Jakob Harteg"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="res/favicon/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="res/favicon/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="res/favicon/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="res/favicon/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="res/favicon/mstile-310x310.png" />
+
         <title>Jakob Harteg</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
         <link href="crookcatcher/fonts/nexa_bold.otf" rel="stylesheet">
         <link href="crookcatcher/fonts/nexa_light.otf" rel="stylesheet">
-        <link href="crookcatcher/mdl/material.min.css" rel="stylesheet">
         <link href="mystyles.css" rel="stylesheet">
-        <script src="crookcatcher/mdl/material.min.js"></script>
-	</head>
-    <body>
 
-      <div class="layoutCenter" style="height: 100vh;">
-        <div class="layoutCenterKid">
-          <div class="apps">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	</head>
+    <body class="gradient_4">
+
+          <div class="container" style="padding: 5%;">
+              <h1 class="jakobharteg center-align">JAKOB HARTEG<span>Android app developer and graphic designer</span></h1>
+
+              <p class="center-align"><img style="height: 48px; margin-bottom: 50px;" src="res/ic_x_white_64px.svg" alt="divider"></p>
+
+              <h2>Apps</h2>
+
               <a href="crookcatcher.html">
-                <div class="app">
-                  <img class="bottom" src="res/cc-icon-256px.png" alt="CrookCather" />
-                  <img class="top" src="res/cc-icon-bw-256px.png" alt="CrookCather-bw" />
-                </div>
+                  <img class="app borderhover" src="res/cc-icon-256px.png" alt="CrookCather" />
               </a>
               <a href="conjugatorforfrench.html">
-                <div class="app">
-                  <img class="bottom" src="res/cf-icon-256px.png" alt="Conjugator" />
-                  <img class="top" src="res/cf-icon-bw-256px.png" alt="Conjugatorr-bw" />
-                </div>
+                  <img class="app borderhover" src="res/cf-icon-256px.png" alt="Conjugator" />
               </a>
+
+              <h2 style="margin-top: 50px;">Book design</h2>
+
+              <div class="book_holder">
+                <img class="materialboxed book borderhover" src="res/books/knowing_1200x1200.png" alt="Another Kind of Knowing"
+                data-caption="Another Kind of Knowing" />
+              </div>
+              <div class="book_holder">
+                <img class="materialboxed book borderhover" src="res/books/investigations_1200x1200.png" alt="Conducting Effective Personnel Investigations"
+                data-caption="Conducting Effective Personnel Investigations" />
+              </div>
+
+              <div style="height: 50px;"></div>
+
+              <div class="contactbox valign-wrapper">
+                  <p>contact(at)jakobharteg.com</p>
+              </div>
+
           </div>
-        </div>
-      </div>
 
 
-
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
 </html>

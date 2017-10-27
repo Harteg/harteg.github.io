@@ -1,19 +1,14 @@
-@font-face { font-family: 'NexaBold'; src: url('.crookcatcher/fonts/nexa_bold.ttf'); }
-@font-face { font-family: 'NexaLight'; src: url('.crookcatcher/fonts/nexa_light.ttf'); }
+@font-face { font-family: 'NexaBold'; src: url('.crookcatcher/fonts/nexa_bold.otf'); }
+@font-face { font-family: 'NexaLight'; src: url('.crookcatcher/fonts/nexa_light.otf'); }
+@font-face { font-family: 'Coolvetica'; src: url('.crookcatcher/fonts/coolvetica.ttf'); }
 
 html{
   background-color: #232526;
-    height: 100%;
+  height: 100%;
 }
 
 body{
-  font-family: "Lato", "Helvetica", "Arial", sans-serif;
-    height: 100%;
-    background: url(res/cover.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    font-family: "Lato", "Helvetica", "Arial", sans-serif;
 }
 
 .center{
@@ -24,97 +19,165 @@ body{
 .jakobharteg{
   color: white;
   font-size: 45px;
-  text-align: center;
-  font-family: 'NexaBold', "Lato", "Helvetica", "Arial", sans-serif;;
-  text-transform: uppercase;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15)
+  letter-spacing: 10px;
+  font-family: 'Coolvetica', "Lato", "Helvetica", "Arial", sans-serif;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
 }
 
 .jakobharteg span{
   font-weight: 300;
-  font-size: 27px;
-  text-align: center;
-  margin-top: -5px;
+  font-size: 22px;
+  margin-top: 5px;
+  line-height: 30px;
+  letter-spacing: 0px;
   display: block;
-  font-family: 'NexaLight', "Lato", "Helvetica", "Arial", sans-serif;;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;;
 }
 
-.portrait{
-  position: absolute;
-  top: 0px;
-  margin-top: 100px;
-  right: 50%;
-  margin-right: -75px;
+h2{
+  color: white;
+  font-size: 2rem !important;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
 }
 
-.portrait img{
-  width: 150px;
-  height: 150px;
-}
-
-.layoutCenterKid{
-  vertical-align: middle;
-  display: table-cell;
-}
-
-.layoutCenter{
-  display: inline-table;
-  height: 100%;
-  width: 100%;
-}
-
-.apps{
-  position: absolute;
-  right: 50%;
-  margin-right: -50px;
-}
-
-.apps a{
-  color: transparent;
+h2:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid white;
+  margin: auto;
+  margin-left: 25px;
 }
 
 .app{
-  width: 100px;
-  height: 100px;
+  margin-right: 5px;
   position: relative;
   display: inline-block;
+  height: 200px;
+  width: 200px;
+  padding: 30px;
 }
 
-.app img{
+.borderhover{
+  transition: border 0.35s !important;
+  -webkit-transition: border 0.35s !important;
+  border: 2px solid transparent;
+}
+
+.book{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  display: inline-block !important;
+}
+
+.borderhover:hover {
+  border: 2px solid white;
+}
+
+/* Disable opacity hover effect that comes with [materialboxed] */
+.book:hover:not(.active) {
+  opacity: 1 !important;
+}
+
+/* Disable border on hover when image is fullscreen */
+.borderhover.active:hover {
+  border: 2px solid transparent;
+}
+
+.book_holder{
+  margin-right: 10px;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+}
+
+.contactbox{
+  width: 100%;
   height: 100px;
-  width: 100px;
+  border: 3px solid white;
+}
+
+.contactbox p{
+  color: white;
+  width: 100%;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.box {
+  position:relative;
+  vertical-align: middle;
+  display: inline-block;
+  transition: 0.5s;
+  border: 2px solid transparent;
+  -webkit-transition:0.5s;
+}
+
+.box:hover {
+  border: 2px solid rgba(0,160,80,0);
+}
+
+/*
+.box::before, .box::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
   position: absolute;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
 }
 
-.app img.top:hover {
-  opacity:0;
+.foo::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 3px solid #FFF;
+  -webkit-transform-origin: 0 100%;
 }
 
-.gradient{
+.foo::after {
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-transform-origin: 100% 0%;
+}
+
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1);
+}
+*/
+
+.gradient_1{
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient_2{
   background: #232526; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* --------- Not used --------- */
-.gradient1{
+.gradient_3{
+  background: #CBBACC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #CBBACC , #2580B3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #CBBACC , #2580B3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient_4{
   background: #485563; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.gradient2{
-  background: #606c88; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.gradient3{
-  background: #8e9eab; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
