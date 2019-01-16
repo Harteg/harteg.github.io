@@ -13,16 +13,8 @@
           "street_address_2": "Hinterhof"
         },
         "instruments": [
-          {
-            "type": "piano",
-            "brand": "yamaha",
-            "model": "C3X"
-          },
-          {
-            "type": "acoustic guitar",
-            "brand": "yamaha",
-            "model": "FSX830C NT"
-          }
+          "piano",
+          "violin"
         ],
         "pictures": [
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/63/thumbs/thumb_B%C3%82sendorfer_3.jpg.1920x1080_q85.jpg",
@@ -43,9 +35,7 @@
           "street_address_2": ""
         },
         "instruments": [
-          {
-            "type": "guitar"
-          }
+          "guitar"
         ],
         "pictures": [
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/61/thumbs/thumb_living-room-with-guitar_ecdnrj.jpg.1920x1080_q85.jpg"
