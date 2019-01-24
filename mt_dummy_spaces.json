@@ -6,11 +6,10 @@
         "name": "The Piano Space",
         "description": "This beautiful room is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
         "location": {
-          "country": "Germany",
-          "city": "Berlin",
-          "zip": "10117",
-          "street_address": "Pariser Platz 4",
-          "street_address_2": "Hinterhof"
+          "country": "Austria",
+          "city": "Vienna",
+          "zip": "1010",
+          "street_address": "Annagasse 1/10",
         },
         "instruments": [
           "piano",
@@ -57,6 +56,106 @@
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_Desk_9646.jpeg.1920x1080_q85.jpg",
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_Mixer_bd02.jpeg.1920x1080_q85.jpg",
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_a1de.jpeg.1920x1080_q85.jpg"
+        ]
+      },
+      {
+        "space_id": "4",
+        "name": "The Space with the very very long title",
+        "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "location": {
+          "country": "Germany",
+          "city": "Berlin",
+          "zip": "10119",
+          "street_address": "Torstraße 152",
+          "street_address_2": ""
+        },
+        "instruments": [],
+        "pictures": [
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_Desk_9646.jpeg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_Mixer_bd02.jpeg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_a1de.jpeg.1920x1080_q85.jpg"
+        ]
+      },
+      {
+        "space_id": "5",
+        "name": "Concert Hall Space",
+        "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "location": {
+          "country": "Austria",
+          "city": "Vienna",
+          "zip": "1010",
+          "street_address": "Stephansplatz 1",
+          "street_address_2": ""
+        },
+        "instruments": [],
+        "pictures": [
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/12/thumbs/thumb_Gro%C3%9Fer_Saal_2.jpg.1280x720_q70.jpg",
+        ]
+      },
+      {
+        "space_id": "6",
+        "name": "Proberaum 5 mit Seiler Flügel",
+        "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "location": {
+          "country": "Germany",
+          "city": "Berlin",
+          "zip": "10119",
+          "street_address": "Torstraße 152",
+          "street_address_2": ""
+        },
+        "instruments": [],
+        "pictures": [
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/41/thumbs/thumb_IMAGE_2017-10-01_21_02_28.jpg.720x405_q70.jpg",
+        ]
+      },
+      {
+        "space_id": "7",
+        "name": "Großer Raum mit E-Piano",
+        "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "location": {
+          "country": "Germany",
+          "city": "Berlin",
+          "zip": "10119",
+          "street_address": "Torstraße 152",
+          "street_address_2": ""
+        },
+        "instruments": [],
+        "pictures": [
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/112/thumbs/thumb_1_Music_Traveler_112_Vienna_Superar_Big_Rehearsal_Room_ce78.jpg.720x405_q70.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/112/thumbs/thumb_2_Music_Traveler_112_Vienna_Superar_Big_Rehearsal_Room_8220.jpg.720x405_q70.jpg",
+        ]
+      },
+      {
+        "space_id": "8",
+        "name": "Casino Baumgarten - Ballroom",
+        "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "location": {
+          "country": "Germany",
+          "city": "Berlin",
+          "zip": "10119",
+          "street_address": "Torstraße 152",
+          "street_address_2": ""
+        },
+        "instruments": [],
+        "pictures": [
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/161/thumbs/thumb_2_Music_Traveler_161_Casino_Baumgarten_3942.JPG.1920x1080_q85.jpg",
+        ]
+      },
+      {
+        "space_id": "9",
+        "name": "Modern Studio with Steinway",
+        "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "location": {
+          "country": "Germany",
+          "city": "Berlin",
+          "zip": "10119",
+          "street_address": "Torstraße 152",
+          "street_address_2": ""
+        },
+        "instruments": [],
+        "pictures": [
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/364/thumbs/thumb_3_Music_Traveler_364_Steinway_Grand_Piano_Vienna_0553_319b.jpg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/364/thumbs/thumb_1_Music_Traveler_364_Steinway_Grand_Piano_Vienna_d24f_fa5f.jpg.1920x1080_q85.jpg",
         ]
       }
     ]
