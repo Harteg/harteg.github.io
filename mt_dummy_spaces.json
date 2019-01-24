@@ -89,7 +89,7 @@
         },
         "instruments": [],
         "pictures": [
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/12/thumbs/thumb_Gro%C3%9Fer_Saal_2.jpg.1280x720_q70.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/12/thumbs/thumb_Gro%C3%9Fer_Saal_2.jpg.1280x720_q70.jpg"
         ]
       },
       {
@@ -105,7 +105,7 @@
         },
         "instruments": [],
         "pictures": [
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/41/thumbs/thumb_IMAGE_2017-10-01_21_02_28.jpg.720x405_q70.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/41/thumbs/thumb_IMAGE_2017-10-01_21_02_28.jpg.720x405_q70.jpg"
         ]
       },
       {
@@ -122,7 +122,7 @@
         "instruments": [],
         "pictures": [
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/112/thumbs/thumb_1_Music_Traveler_112_Vienna_Superar_Big_Rehearsal_Room_ce78.jpg.720x405_q70.jpg",
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/112/thumbs/thumb_2_Music_Traveler_112_Vienna_Superar_Big_Rehearsal_Room_8220.jpg.720x405_q70.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/112/thumbs/thumb_2_Music_Traveler_112_Vienna_Superar_Big_Rehearsal_Room_8220.jpg.720x405_q70.jpg"
         ]
       },
       {
@@ -138,7 +138,7 @@
         },
         "instruments": [],
         "pictures": [
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/161/thumbs/thumb_2_Music_Traveler_161_Casino_Baumgarten_3942.JPG.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/161/thumbs/thumb_2_Music_Traveler_161_Casino_Baumgarten_3942.JPG.1920x1080_q85.jpg"
         ]
       },
       {
@@ -155,7 +155,7 @@
         "instruments": [],
         "pictures": [
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/364/thumbs/thumb_3_Music_Traveler_364_Steinway_Grand_Piano_Vienna_0553_319b.jpg.1920x1080_q85.jpg",
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/364/thumbs/thumb_1_Music_Traveler_364_Steinway_Grand_Piano_Vienna_d24f_fa5f.jpg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/364/thumbs/thumb_1_Music_Traveler_364_Steinway_Grand_Piano_Vienna_d24f_fa5f.jpg.1920x1080_q85.jpg"
         ]
       }
     ]
