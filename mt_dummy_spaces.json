@@ -19,7 +19,10 @@
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/63/thumbs/thumb_B%C3%82sendorfer_3.jpg.1920x1080_q85.jpg",
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/63/thumbs/thumb_B%C3%82sendorfer_1.jpg.1920x1080_q85.jpg",
           "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/63/thumbs/thumb_B%C3%82sendorfer_4.jpg.1920x1080_q85.jpg",
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/63/thumbs/thumb_B%C3%82sendorfer_2.jpg.1920x1080_q85.jpg"
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/63/thumbs/thumb_B%C3%82sendorfer_2.jpg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/333/thumbs/thumb_Music_Traveler_333_Desk_9646.jpeg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/61/thumbs/thumb_living-room-with-guitar_ecdnrj.jpg.1920x1080_q85.jpg",
+          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/12/thumbs/thumb_Gro%C3%9Fer_Saal_2.jpg.1280x720_q70.jpg"
         ]
       },
       {
@@ -133,9 +136,7 @@
           "street_address_2": ""
         },
         "instruments": [],
-        "pictures": [
-          "https://s3.amazonaws.com/musictraveler.herokuapp.com/media/attachments/room_room/161/thumbs/thumb_2_Music_Traveler_161_Casino_Baumgarten_3942.JPG.1920x1080_q85.jpg"
-        ]
+        "pictures": []
       },
       {
         "space_id": "9",
