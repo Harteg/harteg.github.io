@@ -5,11 +5,14 @@
         "space_id": "1",
         "name": "The Piano Space",
         "description": "This beautiful room is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "12",
+        "currency": "EUR",
         "location": {
           "country": "Austria",
           "city": "Vienna",
           "zip": "1010",
-          "street_address": "Annagasse 1/10"
+          "street_address": "Annagasse 1",
+          "coordinates": "48.204321, 16.3719837"
         },
         "instruments": [
           "piano",
@@ -29,12 +32,15 @@
         "space_id": "2",
         "name": "The Guitar Space",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "8",
+        "currency": "EUR",
         "location": {
           "country": "Germany",
           "city": "Berlin",
           "zip": "10178",
           "street_address": "Dircksenstr. 2",
-          "street_address_2": ""
+          "street_address_2": "",
+          "coordinates": "52.520961, 13.4119326"
         },
         "instruments": [
           "guitar"
@@ -47,12 +53,15 @@
         "space_id": "3",
         "name": "The Studio Space",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "22",
+        "currency": "EUR",
         "location": {
           "country": "Germany",
           "city": "Berlin",
           "zip": "10119",
           "street_address": "Torstraße 152",
-          "street_address_2": ""
+          "street_address_2": "",
+          "coordinates": "52.5285, 13.4109"
         },
         "instruments": [],
         "pictures": [
@@ -63,12 +72,15 @@
         "space_id": "4",
         "name": "The Space with the very very long title",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "4",
+        "currency": "USD",
         "location": {
           "country": "Germany",
           "city": "Berlin",
-          "zip": "10119",
-          "street_address": "Torstraße 152",
-          "street_address_2": ""
+          "zip": "12207",
+          "street_address": "Boninstraße 2",
+          "street_address_2": "",
+          "coordinates": "52.4160512, 13.3049218"
         },
         "instruments": [],
         "pictures": [
@@ -79,12 +91,15 @@
         "space_id": "5",
         "name": "Concert Hall Space",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "250",
+        "currency": "EUR",
         "location": {
           "country": "Austria",
           "city": "Vienna",
           "zip": "1010",
           "street_address": "Stephansplatz 1",
-          "street_address_2": ""
+          "street_address_2": "",
+          "coordinates": "48.2080394, 16.3731952"
         },
         "instruments": [],
         "pictures": [
@@ -95,12 +110,15 @@
         "space_id": "6",
         "name": "Proberaum 5 mit Seiler Flügel",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "14",
+        "currency": "USD",
         "location": {
           "country": "Germany",
           "city": "Berlin",
-          "zip": "10119",
-          "street_address": "Torstraße 152",
-          "street_address_2": ""
+          "zip": "10969",
+          "street_address": "Charlottenstraße 2",
+          "street_address_2": "",
+          "coordinates": "52.5058779, 13.3930863"
         },
         "instruments": [],
         "pictures": [
@@ -111,12 +129,15 @@
         "space_id": "7",
         "name": "Großer Raum mit E-Piano",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "12",
+        "currency": "EUR",
         "location": {
           "country": "Germany",
           "city": "Berlin",
-          "zip": "10119",
-          "street_address": "Torstraße 152",
-          "street_address_2": ""
+          "zip": "10178",
+          "street_address": "Alexanderplatz 1",
+          "street_address_2": "",
+          "coordinates": "52.5058779, 13.3930863"
         },
         "instruments": [],
         "pictures": [
@@ -128,12 +149,15 @@
         "space_id": "8",
         "name": "Casino Baumgarten - Ballroom",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "600",
+        "currency": "EUR",
         "location": {
           "country": "Germany",
           "city": "Berlin",
-          "zip": "10119",
-          "street_address": "Torstraße 152",
-          "street_address_2": ""
+          "zip": "10178",
+          "street_address": "Alexanderplatz 1",
+          "street_address_2": "",
+          "coordinates": "52.5058779, 13.3930863"
         },
         "instruments": [],
         "pictures": []
@@ -145,9 +169,10 @@
         "location": {
           "country": "Germany",
           "city": "Berlin",
-          "zip": "10119",
-          "street_address": "Torstraße 152",
-          "street_address_2": ""
+          "zip": "10178",
+          "street_address": "Alexanderplatz 1",
+          "street_address_2": "",
+          "coordinates": "52.5058779, 13.3930863"
         },
         "instruments": [],
         "pictures": [
