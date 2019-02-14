@@ -166,6 +166,8 @@
         "space_id": "9",
         "name": "Modern Studio with Steinway",
         "description": "This is the same beautiful description. The space is located in a very nice area and has a big open yard in the front. Area is quiet and the building too.",
+        "min_price": "14",
+        "currency": "EUR",
         "location": {
           "country": "Germany",
           "city": "Berlin",
