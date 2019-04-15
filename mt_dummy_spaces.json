@@ -147,7 +147,7 @@
           "zip": "10178",
           "street_address": "Alexanderplatz 1",
           "street_address_2": "",
-          "coordinates": "52.5058779, 13.3930863"
+          "coordinates": "52.5214652, 13.4124592"
         },
         "instruments": [],
         "pictures": [
@@ -165,9 +165,9 @@
           "country": "Germany",
           "city": "Berlin",
           "zip": "10178",
-          "street_address": "Alexanderplatz 1",
+          "street_address": "Dircksenstraße 40",
           "street_address_2": "",
-          "coordinates": "52.5058779, 13.3930863"
+          "coordinates": "52.5235563, 13.4069275"
         },
         "instruments": [
           "grand piano"
@@ -186,10 +186,10 @@
         "location": {
           "country": "Germany",
           "city": "Berlin",
-          "zip": "10178",
-          "street_address": "Alexanderplatz 1",
+          "zip": "10177",
+          "street_address": "Georgenstraße 38",
           "street_address_2": "",
-          "coordinates": "52.5058779, 13.3930863"
+          "coordinates": "52.5198793, 13.3868864"
         },
         "instruments": [],
         "pictures": []
