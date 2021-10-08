@@ -3,6 +3,6 @@
 # true (if dismissible)
 # message number (used for shared preferences for dismissible messages)
 This is a new message which is rather long and will have a lot of information.
-none
+market://details?id=com.harteg.crookcatcher
 false
-4
+5
