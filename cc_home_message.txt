@@ -1,0 +1,9 @@
+# meesage
+# link
+# true (if dismissible)
+# message number (used for shared preferences for dismissible messages)
+
+Try out Test App 3, better than ever.
+market://details?id=com.harteg.crookcatcher
+true
+1
