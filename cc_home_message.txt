@@ -4,5 +4,5 @@
 # message number (used for shared preferences for dismissible messages)
 This is a new message which is rather long and will have a lot of information.
 none
-true
-3
+false
+4
