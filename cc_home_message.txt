@@ -2,7 +2,7 @@
 # link (pass "none" for no link)
 # true (if dismissible)
 # message number (used for shared preferences for dismissible messages)
-Try out Test App 3, better than ever.
-market://details?id=com.harteg.crookcatcher
+This is a new message which is rather long and will have a lot of information.
+none
 true
-1
+2
