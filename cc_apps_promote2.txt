@@ -1,0 +1,5 @@
+App name
+App description
+https://www.jakobharteg.com/res/cc-icon-256px.png
+com.harteg.crookcatcher
+
