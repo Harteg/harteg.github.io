@@ -3,7 +3,7 @@
 # true (if dismissible)
 # message number (used for shared preferences for dismissible messages)
 # =========== BELOW is last message
-Status update: We are working with Google to fix the authentication error (403) for new users setting up email notifications.
-none
-true
-1
+# Status update: We are working with Google to fix the authentication error (403) for new users setting up email notifications.
+# none
+# true
+# 1
