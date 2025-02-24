@@ -1,17 +1,26 @@
-@font-face { font-family: 'NexaBold'; src: url('.crookcatcher/fonts/nexa_bold.otf'); }
-@font-face { font-family: 'NexaLight'; src: url('.crookcatcher/fonts/nexa_light.otf'); }
-@font-face { font-family: 'Coolvetica'; src: url('.crookcatcher/fonts/coolvetica.ttf'); }
+@font-face {
+  font-family: "NexaBold";
+  src: url(".crookcatcher/fonts/nexa_bold.otf");
+}
+@font-face {
+  font-family: "NexaLight";
+  src: url(".crookcatcher/fonts/nexa_light.otf");
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: url(".crookcatcher/fonts/coolvetica.ttf");
+}
 
-html{
-  background-color: #222;
+html {
+  background-color: #1d232a;
   height: 100%;
 }
 
-body{
-    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+body {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
 }
 
-.jakobharteg{
+.jakobharteg {
   position: absolute;
   color: white;
   font-size: 14px;
@@ -22,33 +31,33 @@ body{
   line-height: 22px;
 }
 
-.container.center{
-    display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-                align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-                justify-content: center;
-        height: 100%;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-                flex-direction: column;
+.container.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
-@media (min-width: 500px){
-    .container.center{
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
+@media (min-width: 500px) {
+  .container.center {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 }
 
-.app{
+.app {
   margin-right: 5px;
   position: relative;
   display: inline-block;
